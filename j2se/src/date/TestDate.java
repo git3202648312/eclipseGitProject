@@ -7,7 +7,7 @@ import java.util.Date;
 public class TestDate {
 	public static void main(String[] args) throws Exception {
 		
-		//123
+		//456
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		String format = sdf.format(new Date());
 		System.out.println(format);
